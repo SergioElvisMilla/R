@@ -1,1 +1,1 @@
-AUTO <- read.csv("..")
+AUTO = read.csv("..")
