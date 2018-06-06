@@ -1,3 +1,5 @@
+# 01-analisis-csv
+
 #cargarndo un archivo a R
 AUTO = read.csv("PU-SA/data/auto-mpg.csv", header = TRUE, sep = "," )   
 names(AUTO)  #PARA REVISAR LAS CABECERAS
