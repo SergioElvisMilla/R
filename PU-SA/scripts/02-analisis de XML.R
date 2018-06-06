@@ -22,8 +22,18 @@ cds.catalog[1:5,]
 #xpathSApply()
 #getNodeSet()
 
-
+#APUNTANDO EL XML
 population_url <- "PU-SA/data/WorldPopulation-wiki.htm"
+
+ # devuelve una lista de todas las tablas en una pagina
 tables<- readHTMLTable(population_url)
 
+mas_populares <- tables[[1]]
+head(mas_populares,2)
+
+
+# especificando una tabla, para no cargar todo
+custom_table <- readHTMLTable(population_url,which = 6)
+
+custom_table[3:5,]
 
