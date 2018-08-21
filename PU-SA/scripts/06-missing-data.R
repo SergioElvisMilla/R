@@ -33,11 +33,19 @@ data$Income[data$Income==0] <- NA
 
 
 
+#medidas de centralizacion y dispercion
+
+#promediando la data (columna income) "si hay valores NA no promediara nada"
+mean(data$Income)
+# promendiando y obviando los datos vacios  (na.rm los omite)
+mean(data$Income, na.rm = TRUE)
 
 
 
+#desviiacion tipica
 
-
+sd(data$Income)
+sd(data$Income, na.rm = TRUE)
 
 
 
