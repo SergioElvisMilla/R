@@ -9,7 +9,7 @@ git push
 
 
 
-----------pasos para actualizar lainformacion-------
+----------<<<<<pasos para actualizar lainformacion >>>>-------
 clik derecho --> git bash here
 
 cd R
