@@ -6,9 +6,9 @@ install.packages("XML")
 library(XML)
 #cargando un XML
 url<- "PU-SA/data/cd_catalog.xml"
-
+url2<-"PU-SA/data/20138122256-01-F212-00020672.XML"
 #APUNTANDO EL XML
-xmlDoc<- xmlParse(url) #NOS DEVUELVE UN XMLInternalDocument
+xmlDoc<- xmlParse(url2) #NOS DEVUELVE UN XMLInternalDocument
 rootnode <- xmlRoot(xmlDoc)
 rootnode[1]
 

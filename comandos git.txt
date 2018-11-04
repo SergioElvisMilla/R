@@ -1,0 +1,19 @@
+git clone "link"
+ls
+git add -A
+git status
+git commit -m "elegir un nombre para la copia"
+git log
+git pull  
+git push
+
+
+
+----------<<<<<pasos para actualizar lainformacion >>>>vr01-------
+clik derecho --> git bash here
+
+cd R
+git add -A
+git status
+git commit -m "elegir un nombre para la copia"
+git push
